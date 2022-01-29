@@ -1,0 +1,26 @@
+
+  PROCEDURE dot_product(v1,v2: array of float, ps: float)
+      VAR
+        i:INTEGER ;=0
+      BEGIN
+        ps =0
+        for i from 0 to v1.length-1 step1 do
+        ps:= pas+v1[i]*v2[i]
+         END_for
+       write("ps of v1 and v2 is:"+ps )
+
+      END
+
+   ALGORITHM dot_product
+      VAR
+        V1,v2:array of float[10]
+        Ps: float
+BEGIN
+ps :=dot_product(v1,v2,ps)
+ If Ps=0 then
+Write ("v1 and v2 are orthogonal")
+ Else 
+Write ("v1 and v2 are not orthogonal")
+ End if
+
+END

@@ -1,0 +1,22 @@
+FUNCTION dot_product(v1,v2:array_of float ) : float
+VAR
+    i:INTEGER := 0
+    ps:float
+BEGIN
+    ps:=0
+    fo i frome 0 to v1.length-1 step 1 do
+    ps:= pas * v1[i]+v1[i]
+    END_FOR
+    RETURN ps ;
+END
+ALGORITHM dot_product
+VAR
+    ps:float;
+    v1,v2:array of float[10]
+BEGIN
+    ps:=dot_product(v1,v2,ps)
+    if (ps=0) then
+    write("v1 and v2 are orthogonal")
+    Else
+    write("v1 and v2 are not orthogonal")
+END
